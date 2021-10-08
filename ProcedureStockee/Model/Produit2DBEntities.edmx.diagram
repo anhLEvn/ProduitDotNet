@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="936772854bf34bf7b8ac86dc050dff03" Name="Diagram1">
+        <EntityTypeShape EntityType="Produit2DBModel.C__MigrationHistory" Width="2.125" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Produit2DBModel.Category" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Produit2DBModel.Produit" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Produit2DBModel.Season" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <AssociationConnector Association="Produit2DBModel.FK_dbo_Produits_dbo_Categories_CategorieId" ManuallyRouted="false" />
+        <AssociationConnector Association="Produit2DBModel.FK_dbo_Produits_dbo_Seasons_SeasonId" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Produit2DBModel.VRequete" Width="1.5" PointX="5.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="TestLINQ5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestLINQ5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="List Client SQL " HorizontalAlignment="Left" Height="44" Margin="38,43,0,0" VerticalAlignment="Top" Width="104" Click="ListClient_SQL_Click"/>
+        <Button Content="List Client λ" HorizontalAlignment="Left" Height="44" Margin="315,43,0,0" VerticalAlignment="Top" Width="104" Click="ListClient_Lbd_Click"/>
+        <Button Content="List CMD SQL " HorizontalAlignment="Left" Height="44" Margin="171,43,0,0" VerticalAlignment="Top" Width="104" RenderTransformOrigin="-0.995,-0.908" Click="ListCMD_SQL_Click"/>
+        <Button Content="List CMD λ" HorizontalAlignment="Left" Height="44" Margin="38,103,0,0" VerticalAlignment="Top" Width="104" Click="ListCMD_Lbd_Click"/>
+        <Button Content="Nb Total CMD λ" HorizontalAlignment="Left" Height="44" Margin="171,103,0,0" VerticalAlignment="Top" Width="104" Click="NbTotalCMD_Lbd_Click"/>
+        <Button Content="Nb Total CMD SQL" HorizontalAlignment="Left" Height="44" Margin="315,103,0,0" VerticalAlignment="Top" Width="104" Click="NbTotalCMD_SLQ_Click"/>
+        <DataGrid x:Name="dgResultat" HorizontalAlignment="Center" Height="200" Margin="0,224,0,0" VerticalAlignment="Top" Width="780" Background="#FFB1DBB0"/>
+        <DataGrid x:Name="dgPrincipale" HorizontalAlignment="Center" Height="33" Margin="0,169,0,0" VerticalAlignment="Top" Width="780"/>
+
+    </Grid>
+</Window>
